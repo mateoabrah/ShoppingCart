@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="shoppingcart.js"></script>
+		<title>IBC Marketplace</title>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="py-5 text-center">
+				<img class="d-block mx-auto mb-4" src="shoppingcart.png" alt="" width="72" height="72">
+				<h2>IBC Marketplace</h2>
+				<p class="lead">Because what matters is you.</p>
+			</div>
+
+			<div class="row">
+				<div class="col-md-8 col-sm-12">
+					<h4 class="d-flex justify-content-between align-items-center mb-3 p-3 bg-secondary text-white">
+						<span class="text">Your cart</span>
+						<span class="badge badge-secondary badge-pill bg-info">3</span>
+					</h4>
+					<div class="row text-right px-2">
+						<div class="col-sm-5 text-left">
+							Producte
+						</div>
+						<div class="col-sm-2">
+							Preu
+						</div>
+						<div class="col-sm-2">
+							Quantitat
+						</div>
+						<div class="col-sm-1">
+							&nbsp;
+						</div>
+						<div class="col-sm-2">
+							Total
+						</div>
+					</div>
+					<hr/>
+					<div class="row my-3 text-right px-2">
+						<div class="col-sm-5 text-left">
+							<div class="media">
+								<img src="shoppingcart.png" class="mr-3" alt="...">
+								<div class="media-body">
+									<h5 class="mt-0">Camiseta IBC</h5>
+									Camiseta XL blava.<br/>Ref. 2541398
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-2 preu-unitari">
+							15€
+						</div>
+						<div class="col-sm-2">
+							<input type="number" min="1" value="1" class="form-control text-right pr-3">
+						</div>
+						<div class="col-sm-1">
+							<button type="button" class="btn btn-outline-danger btn-xs">
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                            </button>
+						</div>
+						<div class="col-sm-2 preu-producte">
+							15€
+						</div>
+					</div>
+					<div class="row my-3 text-right px-2">
+						<div class="col-sm-5 text-left">
+							<div class="media">
+								<img src="shoppingcart.png" class="mr-3" alt="...">
+								<div class="media-body">
+									<h5 class="mt-0">Mug de cafè</h5>
+									Tassa (mug) de cafè de ceràmica.<br/>
+									Ref. 536699
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-2 preu-unitari">
+							5€
+						</div>
+						<div class="col-sm-2">
+							<input type="number" min="1" value="1" class="form-control text-right pr-3">
+						</div>
+						<div class="col-sm-1">
+							<button type="button" class="btn btn-outline-danger btn-xs">
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                            </button>
+						</div>
+						<div class="col-sm-2 preu-producte">
+							5€
+						</div>
+					</div>
+					<div class="row my-3 text-right px-2">
+						<div class="col-sm-5 text-left">
+							<div class="media">
+								<img src="shoppingcart.png" class="mr-3" alt="...">
+								<div class="media-body">
+									<h5 class="mt-0">Motxilla IBC</h5>
+									Motxilla amb rodes i compartiment pel portàtil.<br/>
+									Ref. 8741221
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-2 preu-unitari">
+							20€
+						</div>
+						<div class="col-sm-2">
+							<input type="number" min="1" value="1" class="form-control text-right pr-3">
+						</div>
+						<div class="col-sm-1">
+							<button type="button" class="btn btn-outline-danger btn-xs">
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                            </button>
+						</div>
+						<div class="col-sm-2 preu-producte">
+							20€
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4  col-sm-12 mb-4">
+					<ul class="list-group mb-3">
+						<li class="list-group-item d-flex justify-content-between lh-condensed">
+							<div>
+								<h6 class="my-0">Subtotal</h6>
+							</div>
+							<span class="text-muted">40€</span>
+						</li>
+						<li class="list-group-item d-flex justify-content-between lh-condensed">
+							<div>
+								<h6 class="my-0">Tax</h6>
+							</div>
+							<span class="text-muted">5%</span>
+						</li>
+						<li class="list-group-item d-flex justify-content-between lh-condensed">
+							<div>
+								<h6 class="my-0">Shipping</h6>
+							</div>
+							<span class="text-muted">7€</span>
+						</li>
+						<li class="list-group-item justify-content-between bg-light no-apply" style="display:none">
+							<span class="d-flex justify-content-between">
+							<div class="text-success">
+								<h6 class="my-0">Promo code</h6>
+							</div>
+							<span class="text-success">-5€</span>
+							</span>
+						</li>
+						<li class="list-group-item d-flex justify-content-between">
+							<span>Total</span>
+							<strong>49€</strong>
+						</li>
+					</ul>
+
+					<div class="card p-2">
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="Promo code">
+							<div class="input-group-append">
+								<button type="submit" class="btn btn-secondary">Redeem</button>
+							</div>
+						</div>
+					</div>
+					
+					<div class="my-3">
+						<button class="btn btn-lg btn-block btn-success">
+								Checkout <i class="fa fa-shopping-cart"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+			
+			<!-- PAYMENT MODAL -->
+			<div class="modal" id="payment_modal" tabindex="-1" role="dialog">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">Purchase details</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<p>Lorem ipsum</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Payment</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer class="my-5 pt-5 text-muted text-center text-small">
+				<p class="mb-1">© Institut Baix Camp de Reus</p>			
+			</footer>
+		</div>
+	</body>
+</html>
